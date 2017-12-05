@@ -102,8 +102,8 @@ FONTS = {
 # Hit is the sound the bullet makes upon hitting an enemy
 # crit is the sound that the strike makes if it crits
 SOUNDS = {
-    "Hit": mixer.Sound("res\\hit.wav"),
-    "Crit": mixer.Sound("res\\crit.wav"),
+    "Hit": mixer.Sound("res/hit.wav"),
+    "Crit": mixer.Sound("res/crit.wav")
 }
 SOUNDS["Hit"].set_volume(0.25)
 SOUNDS["Crit"].set_volume(0.25)
@@ -112,72 +112,72 @@ SOUNDS["Crit"].set_volume(0.25)
 # Player Sprites to be loaded by the individual characters
 PLAYER_SPRITES = {
     "Rogue": {
-        "RIGHT": [image.load("res\\rogue_sprites\\right1.png").convert_alpha(),
-                  image.load("res\\rogue_sprites\\right2.png").convert_alpha(),
-                  image.load("res\\rogue_sprites\\right3.png").convert_alpha(),
-                  image.load("res\\rogue_sprites\\right2.png").convert_alpha()],
-        "LEFT": [image.load("res\\rogue_sprites\\left1.png").convert_alpha(),
-                 image.load("res\\rogue_sprites\\left2.png").convert_alpha(),
-                 image.load("res\\rogue_sprites\\left3.png").convert_alpha(),
-                 image.load("res\\rogue_sprites\\left2.png").convert_alpha()]},
+        "RIGHT": [image.load("res/rogue_sprites/right1.png").convert_alpha(),
+                  image.load("res/rogue_sprites/right2.png").convert_alpha(),
+                  image.load("res/rogue_sprites/right3.png").convert_alpha(),
+                  image.load("res/rogue_sprites/right2.png").convert_alpha()],
+        "LEFT": [image.load("res/rogue_sprites/left1.png").convert_alpha(),
+                 image.load("res/rogue_sprites/left2.png").convert_alpha(),
+                 image.load("res/rogue_sprites/left3.png").convert_alpha(),
+                 image.load("res/rogue_sprites/left2.png").convert_alpha()]},
     "Archer": {
-        "RIGHT": [image.load("res\\archer_sprites\\right1.png").convert_alpha(),
-                  image.load("res\\archer_sprites\\right2.png").convert_alpha(),
-                  image.load("res\\archer_sprites\\right3.png").convert_alpha(),
-                  image.load("res\\archer_sprites\\right2.png").convert_alpha()],
-        "LEFT": [image.load("res\\archer_sprites\\left1.png").convert_alpha(),
-                 image.load("res\\archer_sprites\\left2.png").convert_alpha(),
-                 image.load("res\\archer_sprites\\left3.png").convert_alpha(),
-                 image.load("res\\archer_sprites\\left2.png").convert_alpha()]},
+        "RIGHT": [image.load("res/archer_sprites/right1.png").convert_alpha(),
+                  image.load("res/archer_sprites/right2.png").convert_alpha(),
+                  image.load("res/archer_sprites/right3.png").convert_alpha(),
+                  image.load("res/archer_sprites/right2.png").convert_alpha()],
+        "LEFT": [image.load("res/archer_sprites/left1.png").convert_alpha(),
+                 image.load("res/archer_sprites/left2.png").convert_alpha(),
+                 image.load("res/archer_sprites/left3.png").convert_alpha(),
+                 image.load("res/archer_sprites/left2.png").convert_alpha()]},
     "Tank": {
-        "RIGHT": [image.load("res\\tank_sprites\\right1.png").convert_alpha(),
-                  image.load("res\\tank_sprites\\right2.png").convert_alpha(),
-                  image.load("res\\tank_sprites\\right3.png").convert_alpha(),
-                  image.load("res\\tank_sprites\\right2.png").convert_alpha()],
-        "LEFT": [image.load("res\\tank_sprites\\left1.png").convert_alpha(),
-                 image.load("res\\tank_sprites\\left2.png").convert_alpha(),
-                 image.load("res\\tank_sprites\\left3.png").convert_alpha(),
-                 image.load("res\\tank_sprites\\left2.png").convert_alpha()]},
+        "RIGHT": [image.load("res/tank_sprites/right1.png").convert_alpha(),
+                  image.load("res/tank_sprites/right2.png").convert_alpha(),
+                  image.load("res/tank_sprites/right3.png").convert_alpha(),
+                  image.load("res/tank_sprites/right2.png").convert_alpha()],
+        "LEFT": [image.load("res/tank_sprites/left1.png").convert_alpha(),
+                 image.load("res/tank_sprites/left2.png").convert_alpha(),
+                 image.load("res/tank_sprites/left3.png").convert_alpha(),
+                 image.load("res/tank_sprites/left2.png").convert_alpha()]},
     "Cleric": {
-        "RIGHT": [image.load("res\\shaman_sprites\\right1.png").convert_alpha(),
-                  image.load("res\\shaman_sprites\\right2.png").convert_alpha(),
-                  image.load("res\\shaman_sprites\\right3.png").convert_alpha(),
-                  image.load("res\\shaman_sprites\\right2.png").convert_alpha()],
-        "LEFT": [image.load( "res\\shaman_sprites\\left1.png").convert_alpha(),
-                 image.load( "res\\shaman_sprites\\left2.png").convert_alpha(),
-                 image.load( "res\\shaman_sprites\\left3.png").convert_alpha(),
-                 image.load( "res\\shaman_sprites\\left2.png").convert_alpha()]}
+        "RIGHT": [image.load("res/shaman_sprites/right1.png").convert_alpha(),
+                  image.load("res/shaman_sprites/right2.png").convert_alpha(),
+                  image.load("res/shaman_sprites/right3.png").convert_alpha(),
+                  image.load("res/shaman_sprites/right2.png").convert_alpha()],
+        "LEFT": [image.load( "res/shaman_sprites/left1.png").convert_alpha(),
+                 image.load( "res/shaman_sprites/left2.png").convert_alpha(),
+                 image.load( "res/shaman_sprites/left3.png").convert_alpha(),
+                 image.load( "res/shaman_sprites/left2.png").convert_alpha()]}
 }   
 
 # Footsteps on the brick
 FOOTSTEPS = [
-    mixer.Sound("res\\sounds\\footsteps\\concrete1.wav"),
-    mixer.Sound("res\\sounds\\footsteps\\concrete2.wav"),
-    mixer.Sound("res\\sounds\\footsteps\\concrete3.wav"),
-    mixer.Sound("res\\sounds\\footsteps\\concrete4.wav")
+    mixer.Sound("res/sounds/footsteps/concrete1.wav"),
+    mixer.Sound("res/sounds/footsteps/concrete2.wav"),
+    mixer.Sound("res/sounds/footsteps/concrete3.wav"),
+    mixer.Sound("res/sounds/footsteps/concrete4.wav")
 ]
 
 # Sounds for the Swords
 SWORD_SOUNDS = {
-    1: mixer.Sound("res\\sounds\\sword_sounds\\1.wav"),
-    2: mixer.Sound("res\\sounds\\sword_sounds\\2.wav"),
-    3: mixer.Sound("res\\sounds\\sword_sounds\\3.wav"),
-    4: mixer.Sound("res\\sounds\\sword_sounds\\4.wav"),
-    5: mixer.Sound("res\\sounds\\sword_sounds\\5.wav"),
-    6: mixer.Sound("res\\sounds\\sword_sounds\\6.wav"),
-    7: mixer.Sound("res\\sounds\\sword_sounds\\7.wav"),
-    8: mixer.Sound("res\\sounds\\sword_sounds\\8.wav"),
+    1: mixer.Sound("res/sounds/sword_sounds/1.wav"),
+    2: mixer.Sound("res/sounds/sword_sounds/2.wav"),
+    3: mixer.Sound("res/sounds/sword_sounds/3.wav"),
+    4: mixer.Sound("res/sounds/sword_sounds/4.wav"),
+    5: mixer.Sound("res/sounds/sword_sounds/5.wav"),
+    6: mixer.Sound("res/sounds/sword_sounds/6.wav"),
+    7: mixer.Sound("res/sounds/sword_sounds/7.wav"),
+    8: mixer.Sound("res/sounds/sword_sounds/8.wav"),
 }
 
 # Background music that has to be imported
 BACKGROUND_MUSIC = {
-    1: mixer.Sound("res\\bg_music\\1.ogg"),
-    2: mixer.Sound("res\\bg_music\\2.ogg"),
-    3: mixer.Sound("res\\bg_music\\3.ogg"),
-    4: mixer.Sound("res\\bg_music\\4.ogg"),
-    5: mixer.Sound("res\\bg_music\\5.ogg"),
-    6: mixer.Sound("res\\bg_music\\6.ogg"),
-    7: mixer.Sound("res\\bg_music\\7.ogg"),
+    1: mixer.Sound("res/bg_music/1.ogg"),
+    2: mixer.Sound("res/bg_music/2.ogg"),
+    3: mixer.Sound("res/bg_music/3.ogg"),
+    4: mixer.Sound("res/bg_music/4.ogg"),
+    5: mixer.Sound("res/bg_music/5.ogg"),
+    6: mixer.Sound("res/bg_music/6.ogg"),
+    7: mixer.Sound("res/bg_music/7.ogg"),
 }
 BACKGROUND_MUSIC[1].set_volume(0.25)
 BACKGROUND_MUSIC[2].set_volume(0.25)
@@ -220,85 +220,85 @@ keys_pressed = {
 # Sprites for abilities
 ABILITY_SPRITES = {
     "Rogue": [
-        image.load("res\\rogue_sprites\\ability1.png"),
-        image.load("res\\rogue_sprites\\ability3.png")
+        image.load("res/rogue_sprites/ability1.png"),
+        image.load("res/rogue_sprites/ability3.png")
 ],
     "Archer": [
-        image.load("res\\archer_sprites\\ability1.png"),
-        image.load("res\\archer_sprites\\ability3.png")
+        image.load("res/archer_sprites/ability1.png"),
+        image.load("res/archer_sprites/ability3.png")
     ],
     "Tank": [
-        image.load("res\\tank_sprites\\ability1.png"),
-        image.load("res\\tank_sprites\\ability3.png")
+        image.load("res/tank_sprites/ability1.png"),
+        image.load("res/tank_sprites/ability3.png")
     ],
     "Shaman": [
-        image.load("res\\shaman_sprites\\ability1.png"),
-        image.load("res\\shaman_sprites\\ability3.png")
+        image.load("res/shaman_sprites/ability1.png"),
+        image.load("res/shaman_sprites/ability3.png")
     ]
 }
 
 # Sprites for Elementalist
 AA = [
-    image.load("res\\shaman_sprites\\Attack0\\sprite_00.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_01.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_02.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_03.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_04.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_05.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_06.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_07.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_08.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_09.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_10.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_11.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_12.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack0\\sprite_13.png").convert_alpha()
+    image.load("res/shaman_sprites/Attack0/sprite_00.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_01.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_02.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_03.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_04.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_05.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_06.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_07.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_08.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_09.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_10.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_11.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_12.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack0/sprite_13.png").convert_alpha()
 
 ]
 THUNDER = [
-    image.load("res\\shaman_sprites\\Attack1\\sprite_0.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_1.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_2.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_3.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_4.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_5.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack1\\sprite_6.png").convert_alpha()
+    image.load("res/shaman_sprites/Attack1/sprite_0.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_1.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_2.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_3.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_4.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_5.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack1/sprite_6.png").convert_alpha()
 ]
 FIRE = [
-    image.load("res\\shaman_sprites\\Attack2\\sprite_0.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_1.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_2.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_3.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_4.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_5.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_6.png").convert_alpha(),
-    image.load("res\\shaman_sprites\\Attack2\\sprite_7.png").convert_alpha()
+    image.load("res/shaman_sprites/Attack2/sprite_0.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_1.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_2.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_3.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_4.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_5.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_6.png").convert_alpha(),
+    image.load("res/shaman_sprites/Attack2/sprite_7.png").convert_alpha()
 ]
 
 # Sprites for Tank
 TANK_AA = [
-    image.load("res\\tank_sprites\\AA\\sprite_0.png").convert_alpha(),
-    image.load("res\\tank_sprites\\AA\\sprite_1.png").convert_alpha(),
-    image.load("res\\tank_sprites\\AA\\sprite_2.png").convert_alpha(),
-    image.load("res\\tank_sprites\\AA\\sprite_3.png").convert_alpha()
+    image.load("res/tank_sprites/AA/sprite_0.png").convert_alpha(),
+    image.load("res/tank_sprites/AA/sprite_1.png").convert_alpha(),
+    image.load("res/tank_sprites/AA/sprite_2.png").convert_alpha(),
+    image.load("res/tank_sprites/AA/sprite_3.png").convert_alpha()
 ]
 
 # Full Body Sprites:
 FULL_BODY = {
-    1: image.load("res\\face029.png").convert_alpha(),
-    2: image.load("res\\face022.png").convert_alpha(),
-    3: image.load("res\\face032.png").convert_alpha(),
-    4: image.load("res\\face038.png").convert_alpha()
+    1: image.load("res/face029.png").convert_alpha(),
+    2: image.load("res/face022.png").convert_alpha(),
+    3: image.load("res/face032.png").convert_alpha(),
+    4: image.load("res/face038.png").convert_alpha()
 }
 
 
 # Level text files to be parsed
 LEVELS = {
-    1: "res\\levels\\2.txt",
-    2: "res\\levels\\2.txt",
-    3: "res\\levels\\3.txt",
-    4: "res\\levels\\4.txt",
-    5: "res\\levels\\5.txt"
+    1: "res/levels/2.txt",
+    2: "res/levels/2.txt",
+    3: "res/levels/3.txt",
+    4: "res/levels/4.txt",
+    5: "res/levels/5.txt"
 }
 
 
@@ -344,7 +344,7 @@ class Grunt(sprite.Sprite):
         self.vel = 8
         self.grounded = False
         self.jump = False
-        self.image = image.load("res\\poop.png").convert_alpha()
+        self.image = image.load("res/poop.png").convert_alpha()
         self.rect = self.image.get_rect()
         self.rect.topleft = [x, y]
         self.xp = 10
@@ -434,7 +434,7 @@ class Flier(sprite.Sprite):
         self.dmg = 5 + difficulty // 80
         self.hp = 10 + difficulty // 60
         self.vel = 8
-        self.image = image.load("res\\fly.png")
+        self.image = image.load("res/fly.png")
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
         self.xp = 15
@@ -553,14 +553,14 @@ class SwordHit(object):
         self.passed = 0
         self.dmg = player.dmg * 2
         self.left = [
-            image.load("res\\rogue_sprites\\sword\\left1.png").convert_alpha(),
-            image.load("res\\rogue_sprites\\sword\\left2.png").convert_alpha(),
-            image.load("res\\rogue_sprites\\sword\\left3.png").convert_alpha()
+            image.load("res/rogue_sprites/sword/left1.png").convert_alpha(),
+            image.load("res/rogue_sprites/sword/left2.png").convert_alpha(),
+            image.load("res/rogue_sprites/sword/left3.png").convert_alpha()
         ]
         self.right = [
-            image.load("res\\rogue_sprites\\sword\\right1.png").convert_alpha(),
-            image.load("res\\rogue_sprites\\sword\\right2.png").convert_alpha(),
-            image.load("res\\rogue_sprites\\sword\\right3.png").convert_alpha()
+            image.load("res/rogue_sprites/sword/right1.png").convert_alpha(),
+            image.load("res/rogue_sprites/sword/right2.png").convert_alpha(),
+            image.load("res/rogue_sprites/sword/right3.png").convert_alpha()
         ]
 
         # This checks if the user wants to hit on their right side, or their left side
@@ -683,7 +683,7 @@ class Level(object):
         self.player = None
         self.level_lines = []
         self.world = []
-        self.sprite = image.load("res\\block.png").convert_alpha()
+        self.sprite = image.load("res/block.png").convert_alpha()
         self.all_sprite = sprite.Group()
         self.level = open(open_level, "r")
         self.spawn = []
@@ -731,7 +731,7 @@ class Obstacle(sprite.Sprite):
         self.x = x
         self.y = y
         sprite.Sprite.__init__(self)
-        self.image = image.load("res\\block.png").convert()
+        self.image = image.load("res/block.png").convert()
         self.rect = self.image.get_rect()
         self.rect.topleft = [self.x, self.y]
 
@@ -798,7 +798,7 @@ class Player(sprite.Sprite):
         self.move_speed = 0
         self.crit_chance = 0
         self.temp = 0
-        self.image = image.load("res\\rogue_sprites\\idle.png")
+        self.image = image.load("res/rogue_sprites/idle.png")
         self.cd1 = 0
         self.cd2 = 0
         self.ab1timer = 0
@@ -825,13 +825,13 @@ class Player(sprite.Sprite):
             self.mana = 200
             self.maxmana = 200
             self.dmg = 10
-            self.image = image.load("res\\rogue_sprites\\idle.png")
+            self.image = image.load("res/rogue_sprites/idle.png")
             self.rect = self.image.get_rect()
             self.rect.topleft = [x, y]
-            self.idle = image.load("res\\rogue_sprites\\idle.png")
+            self.idle = image.load("res/rogue_sprites/idle.png")
             self.run_right = PLAYER_SPRITES["Rogue"]["RIGHT"]
             self.run_left = PLAYER_SPRITES["Rogue"]["LEFT"]
-            self.icon = image.load("res\\rogue_sprites\\face.png").convert_alpha()
+            self.icon = image.load("res/rogue_sprites/face.png").convert_alpha()
             self.fullab1cd = 150
             self.fullab2cd = 900
             self.ab1manacost = 40
@@ -846,13 +846,13 @@ class Player(sprite.Sprite):
             self.maxmana = 350
             self.dmg = 20
             self.crit_chance = 15
-            self.image = image.load("res\\archer_sprites\\idle.png")
+            self.image = image.load("res/archer_sprites/idle.png")
             self.rect = self.image.get_rect()
             self.rect.topleft = [x, y]
-            self.idle = image.load("res\\archer_sprites\\idle.png")
+            self.idle = image.load("res/archer_sprites/idle.png")
             self.run_right = PLAYER_SPRITES["Archer"]["RIGHT"]
             self.run_left = PLAYER_SPRITES["Archer"]["LEFT"]
-            self.icon = image.load("res\\archer_sprites\\face.png").convert_alpha()
+            self.icon = image.load("res/archer_sprites/face.png").convert_alpha()
             self.fullab1cd = 150
             self.fullab2cd = 700
             self.ab1manacost = 40
@@ -866,13 +866,13 @@ class Player(sprite.Sprite):
             self.mana = 100
             self.maxmana = 100
             self.dmg = 5
-            self.image = image.load("res\\tank_sprites\\idle.png")
+            self.image = image.load("res/tank_sprites/idle.png")
             self.rect = self.image.get_rect()
             self.rect.topleft = [x, y]
-            self.idle = image.load("res\\tank_sprites\\idle.png")
+            self.idle = image.load("res/tank_sprites/idle.png")
             self.run_right = PLAYER_SPRITES["Tank"]["RIGHT"]
             self.run_left = PLAYER_SPRITES["Tank"]["LEFT"]
-            self.icon = image.load("res\\tank_sprites\\face.png").convert_alpha()
+            self.icon = image.load("res/tank_sprites/face.png").convert_alpha()
             self.fullab1cd = 120
             self.fullab2cd = 600
             self.ab1manacost = 40
@@ -888,10 +888,10 @@ class Player(sprite.Sprite):
             self.dmg = 20
             self.rect = self.image.get_rect()
             self.rect.topleft = [x, y]
-            self.idle = image.load("res\\shaman_sprites\\idle.png")
+            self.idle = image.load("res/shaman_sprites/idle.png")
             self.run_right = PLAYER_SPRITES["Cleric"]["RIGHT"]
             self.run_left = PLAYER_SPRITES["Cleric"]["LEFT"]
-            self.icon = image.load("res\\shaman_sprites\\face.png").convert_alpha()
+            self.icon = image.load("res/shaman_sprites/face.png").convert_alpha()
             self.fullab1cd = 120
             self.fullab2cd = 150
             self.ab1manacost = 40
@@ -1732,7 +1732,7 @@ while running:
     game = True
     enemies = []
     screen_rect = screen.get_rect()
-    background = image.load("res\\background.png").convert_alpha()
+    background = image.load("res/background.png").convert_alpha()
     background_rect = background.get_rect()
     level = Level(LEVELS[random.randint(1, 5)])
     level.create_level(0, 0)
